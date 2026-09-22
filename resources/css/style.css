@@ -1,0 +1,37 @@
+nav{
+    width: 100%;
+}
+
+details {
+  width: 50%;
+ 
+}
+
+details summary {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: darkblue;
+  border-radius: 25px;
+}
+
+details[open] summary{
+    border-radius: 25px 25px 0 0;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary::after {
+    content: ">";
+    display: inline-block;
+    transition: transform 0.2s ease;
+    
+}
+
+details[open] summary::after{
+    transform: rotate(90deg);
+}
