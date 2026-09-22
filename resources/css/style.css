@@ -1,24 +1,65 @@
-nav{
-    width: 100%;
+*{
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
 }
 
+
+body{
+    background-color: rgba(29, 31, 46, 1);
+}
+
+nav{
+    width: 1690px;
+    height: 127px;
+    background-color: rgba(28, 59, 110, 1);
+    border-radius: 25px;
+}
+
+
+
+
 details {
-  width: 50%;
- 
+    float: right;
+  width: 543px;
+  height: 95px;
 }
 
 details summary {
+    padding: 15px;
+    font-size: 34px;
   list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  background-color: darkblue;
+  background-color: rgba(16, 34, 71, .5);
   border-radius: 25px;
 }
 
+details div {
+    padding: 0 16px;
+    text-align: center;
+    height: 409;
+    width: 543;
+    font-size: 24px;
+    background-color:rgba(55, 86, 146, 0.93) ;
+    border-radius: 0 0 25px 25px;
+}
+
+details div div {
+    height: 45px;
+    width: 511px;
+    background-color: rgba(38, 72, 140, 0.5);
+    border-radius: 25px;
+    padding:0 0px;
+    color: rgb(255,255,255);
+}
+
+
+
 details[open] summary{
     border-radius: 25px 25px 0 0;
+    
 }
 
 details summary::-webkit-details-marker {
