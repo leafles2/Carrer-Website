@@ -9,22 +9,28 @@ body{
 }
 
 nav{
-    width: 1690px;
-    height: 127px;
+    width: 88vw;
+    height: 14vh;
     background-color: rgba(28, 59, 110, 1);
     border-radius: 25px;
+    padding: 2vh 1vw;
+}
+
+nav div{
+    float:left;
+    width: 10vw;
 }
 
 
 
 
-details {
+nav details {
     float: right;
-  width: 543px;
-  height: 95px;
+  width: 26vw;
+  height: 8vh;
 }
 
-details summary {
+nav details summary {
     padding: 15px;
     font-size: 34px;
   list-style: none;
@@ -36,19 +42,21 @@ details summary {
   border-radius: 25px;
 }
 
-details div {
-    padding: 0 16px;
+nav details div {
+    padding: .5vw .5vw;
     text-align: center;
-    height: 409;
-    width: 543;
+    height: 38vh;
+    width: 26vw;
     font-size: 24px;
     background-color:rgba(55, 86, 146, 0.93) ;
     border-radius: 0 0 25px 25px;
 }
 
-details div div {
-    height: 45px;
-    width: 511px;
+nav details div div {
+    height: 5vh;
+    width: 25vw;
+    padding: 2vw;
+    margin-bottom: 1vh;
     background-color: rgba(38, 72, 140, 0.5);
     border-radius: 25px;
     padding:0 0px;
@@ -57,22 +65,28 @@ details div div {
 
 
 
-details[open] summary{
+nav details[open] summary{
     border-radius: 25px 25px 0 0;
     
 }
 
-details summary::-webkit-details-marker {
+nav details summary::-webkit-details-marker {
     display: none;
 }
 
-details summary::after {
-    content: ">";
+nav details summary::after {
+    content: "";
+    background-image: url('../images/dropDown.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px 20px;
+    padding: 16px;
+
     display: inline-block;
     transition: transform 0.2s ease;
     
 }
 
-details[open] summary::after{
+nav details[open] summary::after{
     transform: rotate(90deg);
 }
