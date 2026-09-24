@@ -1,3 +1,85 @@
 header{
+    padding: 22vh 0 0 30vw;
     background-image: url("../../../global/css/cssImages/backGround1.jpg") ;
 }
+
+header h1{
+    width: 39vw;
+}
+
+
+.divL{
+    margin: 0px;
+    
+    float:left;
+    padding: 0 10vw;
+    width: 49vw;
+    height: 135vh;
+    font-size: 39px;
+    padding-top: 2vh;
+
+}
+.divL h2{
+     margin: 0;
+    margin-top: 12vh;
+    margin-right:10vw ;
+    width: 29vw ;
+}
+
+.divL img{
+    margin-top: 5vh;
+    width: 29vw;
+    height: 47vh;
+    object-fit: cover;
+}
+
+.divL article {
+    margin-top: 1vh;
+    background-color: rgba(37, 98, 189, 0.5);
+    height: 47vh;
+    width: 29vw;
+    border-radius: 25px;
+}
+
+
+.div{
+    height: 117vh;
+    width: .5vw;
+    margin: 8vh 0 ;
+    background-color: rgba(103, 138, 196, 0.75); 
+    float: left;
+}
+
+.divR {
+    margin: 0px;
+    
+    float:right;
+    padding: 0 10vw;
+    width: 49vw;
+    height: 135vh;
+    font-size: 39px;
+    padding-top: 2vh;
+}
+
+.divR h2{
+     margin: 0;
+    margin-top: 12vh;
+    margin-right:10vw ;
+    width: 29vw ;
+}
+
+.divR img{
+    margin-top: 5vh;
+    width: 29vw;
+    height: 47vh;
+    object-fit: cover;
+}
+
+.divR article {
+    margin-top: 1vh;
+    background-color: rgba(37, 98, 189, 0.5);
+    height: 47vh;
+    width: 29vw;
+    border-radius: 25px;
+}
+

@@ -1,3 +1,31 @@
 header{
     background-image: url("../../../global/css/cssImages/backGround1.jpg") ;
 }
+
+main img{
+    width: 33vw;
+    height: 31hv;
+    margin-left: 10vw;
+    border-radius: 25px;
+    float:left;
+}
+
+main article{
+    float: right;
+    width: 33vw;
+    height: 43vh;
+    margin-right: 10vw;
+    background-color: rgba(37, 98, 189, 0.5);
+    border-radius: 25px;
+    padding: 16px;
+    field-sizing: content;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+header{
+    padding: 22vh 0 0 30vw;
+}
+
+header h1{
+    width: 38vw;
+}
