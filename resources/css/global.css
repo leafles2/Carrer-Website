@@ -1,7 +1,7 @@
 *{
     color: rgb(255, 255, 255);
     box-sizing: border-box;
-    
+    margin: 0px;
 }
 
 
@@ -18,6 +18,7 @@ nav{
     padding: 2vh 1vw;
     margin: 0 5vw;
     position: fixed;
+    margin-top: 1vh;
 }
 
 nav img{
@@ -102,9 +103,9 @@ nav details[open] summary::after{
 }
 
 Header{
-    width: 95vw;
+    width: 100%;
     height: 44vh;
-    padding: 15vh 0 0 37vw;
+    padding: 22vh 0 0 37vw;
 }
 
 header h1{
@@ -114,12 +115,61 @@ header h1{
     text-align: center;
     padding: 1.5vh;
     font-size: 59px;
-    border-radius: 25px;
+    border-radius: 37px;
 }
 
 main{
-    width: 95vw;
-    height: 58vh;
+    width: 100%;
+    height: auto;
     background-color: rgba(13, 48, 68, 1) ;
     margin: 0px;
+    padding:.093vh 0px;
+    overflow: hidden;
+}
+
+main h2{
+    background-color: rgba(40, 97, 182, 0.5);
+    width: 27vw;
+    height: 7vh;
+    font-size: 34px;
+    text-align: center;
+    padding-top: 1.5vh;
+    border-radius: 50px;
+    margin: 5vh 36vw;
+}
+
+footer {
+    width: 100%;
+    height: 24vh;
+    padding: 1vw;
+}
+footer div{
+    width: 20vw;
+}
+
+footer div img{
+    width: 200px;
+    float: left;
+}
+
+footer div h3 {
+    font-size: 39px;
+    float: left;
+    background-color: rgba(11, 54, 139, 0.808);
+    padding: 16px;
+    border-radius: 15px;
+}
+
+.copyRight{
+    float: left;
+    margin-right: 10vw;
+    margin-top: 6vh;
+    background-color: rgba(11, 54, 139, 0.808);
+    padding: 16px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.current{
+    background-color: rgba(19, 42, 88, 0.5);
 }
