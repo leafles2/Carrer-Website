@@ -12,3 +12,14 @@ main article{
     margin-left: 10vw;
     border-radius: 25px;
 }
+
+
+main h1 {
+    font-size: 32px;
+    padding: 2vh 0;
+}
+
+main h3 {
+    font-size: 32px;
+    padding: 2vh 0;
+}
