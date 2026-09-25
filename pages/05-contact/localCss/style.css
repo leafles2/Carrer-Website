@@ -1,3 +1,28 @@
 header{
     background-image: url("../../../global/css/cssImages/backGround1.jpg") ;
 }
+
+
+
+main img{
+    display: block;
+   
+}
+
+.containerImg {
+    position: relative;
+    display: inline-block;
+}
+
+.bgImage{
+    display: block;
+    width: 69vw;
+    height: auto;
+}
+
+.floatingBox{
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+}
