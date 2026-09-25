@@ -1,3 +1,14 @@
 header{
     background-image: url("../../../global/css/cssImages/backGround1.jpg") ;
 }
+
+main article{
+    font-size: 24px;
+    height: auto ;
+    width:79vw ;
+    background-color: rgba(37, 98, 189, 0.5);
+    padding: 2%;
+    margin-bottom: 11vh;
+    margin-left: 10vw;
+    border-radius: 25px;
+}
