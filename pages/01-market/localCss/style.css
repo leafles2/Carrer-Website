@@ -1,10 +1,23 @@
 header{
     padding: 22vh 0 0 30vw;
-    background-image: url("../../../global/css/cssImages/backGround1.jpg") ;
+    background-image: url("../../../global/css/cssImages/backGround2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 30%;
 }
 
 header h1{
     width: 39vw;
+}
+
+main img{
+    border-radius: 25px;
+    filter: brightness(.8);
+}
+
+main article{
+    font-size: 28px;
+    padding: 1.5vh 1vw;
 }
 
 

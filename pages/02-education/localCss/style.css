@@ -8,19 +8,20 @@ main img{
     margin-left: 10vw;
     border-radius: 25px;
     float:left;
+    filter: brightness(.8);
 }
 
 main article{
     float: right;
     width: 33vw;
-    height: 43vh;
+    height: 78vh;
     margin-right: 10vw;
     background-color: rgba(37, 98, 189, 0.5);
     border-radius: 25px;
     padding: 16px;
     field-sizing: content;
     margin-bottom: 60px;
-    font-size: 20px;
+    font-size: 28px;
 }
 header{
     padding: 22vh 0 0 30vw;
