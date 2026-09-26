@@ -19,6 +19,9 @@ nav{
     margin: 0 5vw;
     position: fixed;
     margin-top: 1vh;
+    top:0;
+    left: 0;
+    z-index: 100;
 }
 
 nav img{
@@ -178,3 +181,4 @@ footer div h3 {
 .current{
     background-color: rgba(19, 42, 88, 0.5);
 }
+

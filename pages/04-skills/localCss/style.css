@@ -12,6 +12,18 @@ main article{
     margin-left: 10vw;
     border-radius: 25px;
 }
+main p{
+    font-size: 14px;
+    color: rgb(186, 184, 184);
+    margin: 1vh 0;
+     background-color: rgba(33, 75, 138, 0.5);
+    width: 30vw;
+    height: 11vh;
+    text-align: center;
+    padding: 3vh 1vw;
+    border-radius: 25px;
+    margin: 5vh 34.5vw;
+}
 
 
 main h1 {
@@ -21,5 +33,5 @@ main h1 {
 
 main h3 {
     font-size: 32px;
-    padding: 2vh 0;
+    margin: 2vh 0;
 }
