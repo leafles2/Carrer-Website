@@ -61,6 +61,7 @@ main article{
     margin: 8vh 0 ;
     background-color: rgba(103, 138, 196, 0.75); 
     float: left;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
 }
 
 .divR {

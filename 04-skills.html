@@ -21,12 +21,12 @@
             <details>
                 <summary>Menu</summary>
                 <div>
-                    <div ><a href="index.html">Home</a><br></div>
-                    <div><a href="01-market.html">Job Market & Earnings</a><br></div>
-                    <div><a href="02-education.html">Education Requirements</a><br></div>
-                    <div><a href="03-description.html">Job Description</a><br></div>
-                    <div class="current"><a href="04-skills.html">Personal Skills</a><br></div>
-                    <div><a href="05-contact.html">Contact</a></div>
+                     <a id="home" href="index.html">Home</a><br><br>
+                    <a id="market" href="01-market.html">Job Market & Earnings</a><br><br>
+                    <a href="02-education.html">Education Requirements</a><br><br>
+                    <a id="description" href="03-description.html">Job Description</a><br><br>
+                    <a  id="skills"class="current"  href="04-skills.html">Personal Skills</a><br><br>
+                    <a id="contact" href="05-contact.html">Contact</a>
                     
                 </div>
             </details>
@@ -49,7 +49,7 @@
 
             
             <h2>What skills are needed?</h2>
-            <p>The form below has my answeres set as defult, feel free to answer it yourself!(If its blank i have no experiance with it)</p>
+            <p>The form below has my answers set as default, feel free to answer it yourself! (If it's blank, I have no experience with it)</p>
 
 
             <article>
@@ -58,33 +58,41 @@
                     action="https://formspree.io/f/xgavzpjl"
                     method="post"
                 >
-                    <h1>Creative & Visual Design Skills</h1>
+                    <h3>Creative & Visual Design Skills</h3>
                     <label>
                         Do you know how to use size, contrast, and placement to deliberately control which elements catch a user's eye first?<br>
-                        <input type="radio" name="Q1" value="Yes">  Yes&emsp;
-                        <input type="radio" name="Q1" checked> Kinda&emsp;
-                        <input type="radio" name="Q1" value="No" > No<br><br>
+                        <ul>
+                            <li>
+                                <input type="radio" name="Q1" value="Yes">  Yes&emsp;
+                             <input type="radio" name="Q1" checked> Kinda&emsp;
+                             <input type="radio" name="Q1" value="No" > No<br><br>
+                            </li>
+                        </ul>
                     </label>
                     
                     <label>
                         Can you quickly identify the specific layout flaws when looking at an interface with poor visual hierarchy<br>
-                        <input type="radio" name="Q2" value="Yes" checked>  Yes&emsp;
-                        <input type="radio" name="Q2" > Kinda&emsp;
-                        <input type="radio" name="Q2" value="No" > No<br><br>
+                        <ul>
+                            <li>
+                                <input type="radio" name="Q2" value="Yes" checked>  Yes&emsp;
+                                <input type="radio" name="Q2" > Kinda&emsp;
+                                <input type="radio" name="Q2" value="No" > No<br><br>
+                            </li>
+                        </ul>
                     </label>
 
                     <label>
                         Are you confident choosing complementary font pairings and setting readable line lengths for body text?<br>
-                        <input type="radio" name="Q3" value="Yes" checked>  Yes&emsp;
+                        <ul><li><input type="radio" name="Q3" value="Yes" checked>  Yes&emsp;
                         <input type="radio" name="Q3" > Kinda&emsp;
-                        <input type="radio" name="Q3" value="No" > No<br><br>
+                        <input type="radio" name="Q3" value="No" > No<br><br></li></ul>
                     </label>
                     
                     <label>
                         Can you design fresh, creative layouts while strictly adhering to a company's corporate brand guidelines<br>
-                        <input type="radio" name="Q4" value="Yes" checked>  Yes&emsp;
+                        <ul><li><input type="radio" name="Q4" value="Yes" checked>  Yes&emsp;
                         <input type="radio" name="Q4" > Kinda&emsp;
-                        <input type="radio" name="Q4" value="No" > No<br><br>
+                        <input type="radio" name="Q4" value="No" > No<br><br></li></ul>
                     </label>
 
 
@@ -93,30 +101,30 @@
 
                     <label>
                         Do you naturally design layouts using a mobile-first approach rather than stripping down a desktop version?<br>
-                        <input type="radio" name="Q5" value="Yes">  Yes&emsp;
+                        <ul><li><input type="radio" name="Q5" value="Yes">  Yes&emsp;
                         <input type="radio" name="Q5" > Kinda&emsp;
-                        <input type="radio" name="Q5" value="No" > No<br><br>
+                        <input type="radio" name="Q5" value="No" > No<br><br></li></ul>
                     </label>
                     
                     <label>
                         Do you use a structured grid framework, like an 8-point system, to keep your layout margins and padding consistent?<br>
-                        <input type="radio" name="Q6" value="Yes">  Yes&emsp;
+                        <ul><li><input type="radio" name="Q6" value="Yes">  Yes&emsp;
                         <input type="radio" name="Q6" > Kinda&emsp;
-                        <input type="radio" name="Q6" value="No" > No<br><br>
+                        <input type="radio" name="Q6" value="No" > No<br><br></li></ul>
                     </label>
                     
                     <label>
                         Do you intentionally use large amounts of white space as a strategic design tool rather than seeing it as wasted room?<br>
-                        <input type="radio" name="Q7" value="Yes" checked>  Yes&emsp;
+                        <ul><li><input type="radio" name="Q7" value="Yes" checked>  Yes&emsp;
                         <input type="radio" name="Q7" > Kinda&emsp;
-                        <input type="radio" name="Q7" value="No" > No<br><br>
+                        <input type="radio" name="Q7" value="No" > No<br><br></li></ul>
                     </label>
                     
                     <label>
                         Does your knowledge of front-end technical constraints (HTML/CSS) influence your layout decisions before any coding begins?<br>
-                        <input type="radio" name="Q8" value="Yes" checked>  Yes&emsp;
+                        <ul><li><input type="radio" name="Q8" value="Yes" checked>  Yes&emsp;
                         <input type="radio" name="Q8" > Kinda&emsp;
-                        <input type="radio" name="Q8" value="No" > No<br><br>
+                        <input type="radio" name="Q8" value="No" > No<br><br></li></ul>
                     </label>
 
                     
@@ -125,30 +133,30 @@
 
                     <label>
                         Do you have a clear, step-by-step process for investigating and fixing a landing page with a high bounce rate?<br>
-                        <input type="radio" name="Q9" value="Yes" >  Yes&emsp;
+                        <ul><li><input type="radio" name="Q9" value="Yes" >  Yes&emsp;
                         <input type="radio" name="Q9" > Kinda&emsp;
-                        <input type="radio" name="Q9" value="No" > No<br><br>
+                        <input type="radio" name="Q9" value="No" > No<br><br></li></ul>
                     </label>
                     
                     <label>
                         Do you routinely map out user journeys, pain points, and user goals before creating high-fidelity interface screens?<br>
-                        <input type="radio" name="Q10" value="Yes" >  Yes&emsp;
+                        <ul><li><input type="radio" name="Q10" value="Yes" >  Yes&emsp;
                         <input type="radio" name="Q10" checked> Kinda&emsp;
-                        <input type="radio" name="Q10" value="No" > No<br><br>
+                        <input type="radio" name="Q10" value="No" > No<br><br></li></ul>
                     </label>
                     
                     <label>
                         Do you know how to use user-testing research methods, like card sorting, to structure an intuitive navigation menu?<br>
-                        <input type="radio" name="Q11" value="Yes" >  Yes&emsp;
+                        <ul><li><input type="radio" name="Q11" value="Yes" >  Yes&emsp;
                         <input type="radio" name="Q11" checked> Kinda&emsp;
-                        <input type="radio" name="Q11" value="No" > No<br><br>
+                        <input type="radio" name="Q11" value="No" > No<br><br></li></ul>
                     </label>
                     
                     <label>
                         Do you intentionally separate an interface's interactive capability (affordance) from its visual cue (signifier) when designing components?<br>
-                        <input type="radio" name="Q12" value="Yes" >  Yes&emsp;
+                        <ul><li><input type="radio" name="Q12" value="Yes" >  Yes&emsp;
                         <input type="radio" name="Q12"> Kinda&emsp;
-                        <input type="radio" name="Q12" value="No" checked> No<br><br>
+                        <input type="radio" name="Q12" value="No" checked> No<br><br></li></ul>
                     </label>
 
 
@@ -157,23 +165,23 @@
                     
                     <label>
                         Do you know how to design web forms so they are fully navigable by keyboard-only and screen-reader users?<br>
-                        <input type="radio" name="Q13" value="Yes" >  Yes&emsp;
+                        <ul><li><input type="radio" name="Q13" value="Yes" >  Yes&emsp;
                         <input type="radio" name="Q13"> Kinda&emsp;
-                        <input type="radio" name="Q13" value="No" checked> No<br><br>
+                        <input type="radio" name="Q13" value="No" checked> No<br><br></li></ul>
                     </label>
                     
                     <label>
                         Do you use specific compression processes and tools to optimize large multimedia assets for faster web load speeds?<br>
-                        <input type="radio" name="Q14" value="Yes" >  Yes&emsp;
+                        <ul><li><input type="radio" name="Q14" value="Yes" >  Yes&emsp;
                         <input type="radio" name="Q14"> Kinda&emsp;
-                        <input type="radio" name="Q14" value="No" checked> No<br><br>
+                        <input type="radio" name="Q14" value="No" checked> No<br><br></li></ul>
                     </label>
                     
                     <label>
                         Have you previously built or managed a centralized design system to maintain visual consistency across a large application<br>
-                        <input type="radio" name="Q15" value="Yes" >  Yes&emsp;
+                        <ul><li><input type="radio" name="Q15" value="Yes" >  Yes&emsp;
                         <input type="radio" name="Q15" checked> Kinda&emsp;
-                        <input type="radio" name="Q15" value="No"> No<br><br>
+                        <input type="radio" name="Q15" value="No"> No<br><br></li></ul>
                     </label>
 
 
