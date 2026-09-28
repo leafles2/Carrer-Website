@@ -1,5 +1,5 @@
 header{
-    padding: 22vh 0 0 30vw;
+    padding: 50vh 0 0 30vw;
     background-image: url("../../../global/css/cssImages/backGround2.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,7 +30,7 @@ main article{
     height: 135vh;
     font-size: 39px;
     padding-top: 2vh;
-
+    
 }
 .divL h2{
      margin: 0;
