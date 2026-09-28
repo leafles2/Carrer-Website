@@ -3,6 +3,11 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 30%;
+    padding: 50vh 0 0 39.5vw;
+}
+
+header h1 {
+    width: 20vw;
 }
 
 

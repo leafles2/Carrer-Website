@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 
+
 *{
     color: rgb(255, 255, 255);
     box-sizing: border-box;
@@ -75,19 +76,22 @@ nav details summary:hover {
 }
 
 nav details div {
-    padding: 2.5vh .5vw;
+    padding: 1.5vh .5vw;
+    padding-bottom: 0;
     text-align: center;
-    height: 38vh;
+    height: auto;
     width: 26vw;
     font-size: 24px;
-    background-color:rgba(55, 86, 146, 0.93) ;
+    background-color:rgba(55, 86, 146, 1) ;
     border-radius: 0 0 25px 25px;
+    display: flex;
+    flex-direction: column;
     
 }
 
 nav details div div {
     height: 5vh;
-    width: 25vw;
+    width: 100%;
     margin-bottom: 1vh;
     background-color: rgba(38, 72, 140, 0.5);
     border-radius: 25px;
@@ -98,24 +102,25 @@ nav details div div {
 
 nav details div a:link {
     text-decoration: none;
-    height: 5vh;
-    width: 25vw;
-    margin-bottom: 6vh;
+    height: auto;
+    width: 100%;
+    margin-bottom: 1.5vh;
     background-color: rgba(38, 72, 140, 0.5);
     border-radius: 25px;
-    padding:1vh 6.3vw;
+    padding:1vh 0;
     
     color: rgb(255,255,255);
 }
 
 nav details div a:hover {
     text-decoration: none;
+    flex:1;
     height: 5vh;
-    width: 25vw;
-    margin-bottom: 6vh;
+   width: 100%;
+    margin-bottom: 1.5vh;
     background-color: rgba(33, 86, 192, 0.5);
     border-radius: 25px;
-    padding:1vh 6.3vw;
+    padding:1vh 0;
     
     color: rgb(255,255,255);
 }
@@ -123,25 +128,25 @@ nav details div a:hover {
 nav details div a:active {
     text-decoration: none;
     height: 5vh;
-    width: 25vw;
-    margin-bottom: 6vh;
+    width: 100%;
+    margin-bottom: 1.5vh;
     background-color: rgb(0, 85, 255);
     border-radius: 25px;
-    padding:1vh 6.3vw;
+    padding:1vh 6vw;
     
     color: rgb(255,255,255);
 }
-
+/*
 #home{
-    padding:1vh 11vw;
+    padding:1vh 10.8vw;
 }
 
 #market{
-    padding:1vh 6.6vw;
+    padding:1vh 5.9vw;
 }
 
 #description{
-    padding:1vh 8.5vw;
+    padding:1vh 7.9vw;
 }
 
 #skills{
@@ -151,7 +156,7 @@ nav details div a:active {
 #contact{
     padding:1vh 10.5vw;
 }
-
+*/
 
 nav details[open] div div{
     box-shadow: 0;
@@ -198,7 +203,7 @@ header h1{
     width: 25vw;
     height: 11vh;
     text-align: center;
-    padding: 1.5vh;
+    padding: 1vh;
     font-size: 59px;
     border-radius: 37px;
     box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.5);
@@ -219,7 +224,7 @@ main h2{
     height: 7vh;
     font-size: 34px;
     text-align: center;
-    padding-top: 1.5vh;
+    padding-top: 1vh;
     border-radius: 50px;
     margin: 5vh 36vw;
      box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
@@ -270,5 +275,15 @@ footer div h3 {
 
 .current{
     background-color: rgba(19, 42, 88, 0.5);
+}
+
+.legal{
+    float: right;
+    margin-right: 1vw;
+    margin-top: 6vh;
+    background-color: rgba(11, 54, 139, 0.25);
+    padding: 16px;
+    border-radius: 15px;
+    font-size: 18px;
 }
 
